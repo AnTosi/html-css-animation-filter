@@ -125,13 +125,13 @@
 
 @keyframes spin2 {
     0% {transform: rotate(0deg);
-    animation-timing-function: linear;}
+        animation-timing-function: linear;}
     25% {transform: rotate(90deg);
-    animation-timing-function: linear;
-    animation-duration: 5s;}
+        animation-timing-function: linear;
+        animation-duration: 5s;}
     50% {transform: rotate(180deg);
-    animation-duration: 5s;
-    animation-timing-function: linear;}
+        animation-duration: 5s;
+        animation-timing-function: linear;}
     75% {transform:rotate(270deg);
         animation-duration: 1s;}
 }
@@ -194,23 +194,24 @@
     0% {position: absolute;
         top: -10px;
         left: 10%;}
-    25% {position: absolute;
+
+    30% {position: absolute;
         top:-10px;
-        left: calc(100% - 30px);
+        left: calc(100% - 15px);
     }
     
     45% {position: absolute;
         top: calc(100% - 10px);
-        left: calc(100% - 30px);
+        left: calc(100% - 15px);
     }
     
-    70% {position:absolute;
-        left: -30px;
+    75% {position:absolute;
+        left: -15px;
         top: calc(100% - 10px)
         }
     
     90% {position: absolute;
-        left: -30px;
+        left: -15px;
         top: -10px;
     }
 }
@@ -228,23 +229,23 @@
         bottom: -10px;
         right: 20%;}
 
-    25% {position: absolute;
+    30% {position: absolute;
         bottom:-10px;
-        right: calc(100% - 30px);
+        right: calc(100% - 45px);
     }
     
     45% {position: absolute;
         bottom: calc(100% - 10px);
-        right: calc(100% - 30px);
+        right: calc(100% - 45px);
     }
     
-    70% {position:absolute;
-        right: -30px;
+    75% {position:absolute;
+        right: -15px;
         bottom: calc(100% - 10px);
         }
     
     90% {position: absolute;
-        right: -30px;
+        right: -15px;
         bottom: -10px;
     }
 }
